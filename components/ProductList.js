@@ -3,8 +3,8 @@ import ProductCard from "./ProductCard"
 const ProductList = ({ products }) => {
   return (
     <div className="bg-white px-10">
-      <div className=" mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-        <h2 className="text-2xl font-extrabold text-gray-900 mb-6">
+      <div className=" mx-auto pt-16 pb-0 px-4 sm:py-24 sm:px-6 lg:px-8">
+        <h2 className="text-2xl font-extrabold text-gray-900">
           Products
         </h2>
       </div>
