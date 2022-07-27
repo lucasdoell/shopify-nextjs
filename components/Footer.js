@@ -3,7 +3,8 @@ const navigation = [
   { name: 'About', href: '#' },
   { name: 'Jobs', href: '#' },
   { name: 'Shop', href: '#' },
-  { name: 'Terms and Conditions', href: '#' }
+  { name: 'Terms and Conditions', href: '#' },
+  { name: 'Privacy Policy', href: '#' }
 ]
 
 export default function Footer() {
@@ -21,7 +22,7 @@ export default function Footer() {
             ))
           }
         </nav>
-        <p className="mt-8 text-center text-gray-400">&copy; 2022 Learn Shopify Next.js Course. All rights reserved.</p>
+        <p className="mt-8 text-center text-gray-400">&copy; 2022 Lucas Doell. All rights reserved.</p>
       </div>
     </footer>
   )
