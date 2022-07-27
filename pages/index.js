@@ -16,7 +16,10 @@ export default function Home({ products }) {
       />
       
       <Hero />
+
+      <a id="products" />
       <ProductList products={products} />
+        
     </div>
   );
 }
