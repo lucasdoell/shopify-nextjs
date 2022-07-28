@@ -8,10 +8,10 @@ import SEO from '../components/SEO';
 export default function Home({ products }) {
 
   return (
-    <div className=''>
+    <div className='bg-white dark:bg-slate-900'>
       <SEO 
-        title="Modern eCommerce Site"
-        description="Modern eCommerce site using Shopify, Next.js, Tailwind CSS, and GraphQL."
+        title="Modern Ecommerce Site"
+        description="Modern Ecommerce site using Shopify, Next.js, Tailwind CSS, and GraphQL."
         image="share.png" 
       />
       
